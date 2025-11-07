@@ -1,0 +1,37 @@
+Project Details
+
+Made by: Lovepreet Singh (based on project folder name)
+
+When made: [Date not specified; appears to be a recent development project]
+
+Technology used:
+- Frontend: React (with hooks like useState, useContext), JavaScript
+- Build tool: Vite
+- Styling: Tailwind CSS (inferred from class names like bg-[#00b368])
+- Charts: CanvasJS React Charts
+- Animations: GSAP
+- Icons: React Icons (e.g., FaUnlock, TbBackground)
+- Backend/API: JSON Server (inferred from fetch calls to localhost:4000 endpoints like /income, /expness, /FD)
+- State Management: React Context (IncomeContext for global state like incomeData, ex, loan, fixdeposit, availableBalance)
+
+Purpose of the project:
+This is a personal finance management application designed to help users track their income, expenses, loans, and investments (specifically fixed deposits). It allows users to set monthly budgets, monitor balances, visualize expenses via charts, and manage financial goals like saving through fixed deposits. The app aims to provide a simple, user-friendly interface for financial planning and tracking, promoting better money management.
+
+Features in the project:
+- User Authentication: Login page for user access (loginpage.jsx)
+- Dashboard (deshbord.jsx):
+  - Set monthly income and expenses
+  - View total income, balance, and expenses
+  - Pie chart for expense breakdown using CanvasJS
+  - History of payments (expense table)
+  - Fixed deposit reports table
+- Fixed Deposit Management (fixeddeposit.jsx):
+  - Calculate interest and maturity for fixed deposits (6% rate)
+  - Add new FD entries, deduct amount from balance
+  - Display FD details in a table
+- Loan Management: Track loans (integrated in context, shown in balance calculation)
+- Responsive Design: Uses Tailwind CSS for mobile-friendly layout
+- Data Persistence: Posts data to local JSON server endpoints for income, expenses, FD, and loans
+- Animations: GSAP for button hover effects
+- Context-based State: Shared state across components for real-time updates
+

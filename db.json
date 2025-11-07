@@ -1,0 +1,142 @@
+{
+  "users": [
+    {
+      "id": "9d11",
+      "firstName": "lovepreet ",
+      "lastName": "singh",
+      "gMail": "j@gmail.com",
+      "password": "12"
+    },
+    {
+      "id": "5d61",
+      "firstName": "",
+      "lastName": "",
+      "gMail": "",
+      "password": ""
+    },
+    {
+      "id": "d42a",
+      "firstName": "LOVEPREET",
+      "lastName": "SINGH",
+      "gMail": "l@gmial.com",
+      "password": "123"
+    },
+    {
+      "id": "3cab",
+      "firstName": "",
+      "lastName": "",
+      "gMail": "l@gmial.com",
+      "password": "123"
+    }
+  ],
+  "income": [
+    {
+      "id": "9ec4",
+      "formIncome": "100000",
+      "userID": "9d11",
+      "lebel": "income",
+      "date": "2025-11-04"
+    },
+    {
+      "id": "adeb",
+      "formIncome": "50000",
+      "userID": "d42a",
+      "lebel": "income",
+      "date": "2025-11-04"
+    }
+  ],
+  "expness": [
+    {
+      "id": "b0d4",
+      "type": "expense",
+      "y": "10000",
+      "date": "2025-11-04",
+      "label": "Petrol",
+      "userID": "9d11"
+    },
+    {
+      "id": "2e26",
+      "label": "send money",
+      "y": "4000",
+      "date": "11/4/2025",
+      "userID": "9d11"
+    },
+    {
+      "id": "56b3",
+      "y": "100000",
+      "date": "2025-11-04",
+      "fdyear": "2",
+      "label": "FD",
+      "userID": "9d11"
+    },
+    {
+      "id": "97b0",
+      "type": "expense",
+      "y": "5000",
+      "date": "2025-11-10",
+      "label": "room rent",
+      "userID": "d42a"
+    }
+  ],
+  "loan": [
+    {
+      "id": "a39b",
+      "type": "home loan",
+      "amount": "100000",
+      "totalReturn": 132000,
+      "rate": "8",
+      "ratetotal": 32000,
+      "emi": 2750,
+      "tmonth": 48,
+      "tenure": 4,
+      "date": "2025-11-04",
+      "endLoan": "11/4/2029",
+      "userID": "9d11"
+    },
+    {
+      "id": "d11d",
+      "type": "car loan ",
+      "amount": "500000",
+      "totalReturn": 740000,
+      "rate": "12",
+      "ratetotal": 240000,
+      "emi": 15416.666666666666,
+      "tmonth": 48,
+      "tenure": 4,
+      "date": "2025-11-05",
+      "endLoan": "11/5/2029",
+      "userID": "d42a"
+    }
+  ],
+  "bankList": [
+    {
+      "id": "4691",
+      "bankName": "canra bank",
+      "accountNo": "15145215212241",
+      "holder": "lovepreet singh",
+      "ifcode": "6552240125",
+      "userID": "9d11"
+    },
+    {
+      "id": "c15c",
+      "bankName": "hdfc bank",
+      "accountNo": "5555555555",
+      "holder": "lovepreet singh",
+      "ifcode": "HDFC0000822",
+      "userID": "d42a"
+    }
+  ],
+  "FD": [
+    {
+      "id": "f06d",
+      "amount": 100000,
+      "rate": 0.06,
+      "year": 2,
+      "totalInterst": 12000,
+      "finalReturn": 112000,
+      "startdate": "2025-11-04",
+      "endDate": "11/4/2027",
+      "userID": "9d11"
+    }
+  ]
+}

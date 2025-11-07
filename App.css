@@ -1,0 +1,5 @@
+/* input:-webkit-autofill {
+  @apply bg-white text-black border-gray-300 shadow-none;
+  box-shadow: 0 0 0 1000px white inset;
+  transition: background-color 9999s ease-in-out 0s;
+} */
